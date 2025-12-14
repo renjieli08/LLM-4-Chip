@@ -1,5 +1,5 @@
 ## LLM-for-Photonics
-Leveraging LLMs to design and optimize nanophotonics
+Leveraging LLMs to design and optimize nanophotonic deivces and chips, such as semiconductor lasers.
 
 This is the repository for our paper: LLM helps design and optimize photonic crystal
 surface emitting lasers, by Renjie Li et al. available at https://arxiv.org/pdf/2104.12145
