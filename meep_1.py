@@ -1,3 +1,5 @@
+#original human-written meep code
+
 import meep as mp
 import numpy as np
 import matplotlib.pyplot as plt
@@ -117,4 +119,5 @@ plt.plot(np.degrees(far_field[:, 0]), far_field[:, 1])
 plt.xlabel("Angle (degrees)")
 plt.ylabel("Power (arb. units)")
 plt.title("Far-Field Pattern")
+
 plt.show()
