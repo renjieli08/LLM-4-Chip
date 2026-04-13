@@ -43,7 +43,7 @@ export PYTHONPATH="/path/to/parent/of/envs:$PYTHONPATH"
 python DQN_chip_optimization.py
 ```
 
-That environment code is not included in this repository snapshot; without it, those scripts will fail at `gym.make('Fdtd_NB-v0')`.
+without it, those scripts will fail at `gym.make('Fdtd_NB-v0')`.
 
 ### Running the code
 
