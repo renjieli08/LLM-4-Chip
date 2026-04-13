@@ -36,7 +36,7 @@ conda install -c conda-forge pymeep
 
 See the [Meep installation guide](https://meep.readthedocs.io/en/latest/Installation/).
 
-4. **RL scripts (`DQN_chip_optimization.py`, `Bayesian_optimization_chip.py`)** register a Gym environment `Fdtd_NB-v0` with `entry_point='envs:FdtdEnv'`. You must supply a Python package or module named `envs` containing `FdtdEnv` (the FDTD-backed environment) and run with that package on `PYTHONPATH`, for example:
+4. **RL scripts (`DQN_chip_optimization.py`, `Bayesian_optimization_chip.py`)** register a Gym environment `Fdtd_NB-v0` with `entry_point='envs:FdtdEnv'`. You will use the provided module named `envs` containing `FdtdEnv` (the FDTD-backed environment) and the moduled named 'src' containing FdtdRlNanobeam.py and run with that package on `PYTHONPATH`, for example:
 
 ```bash
 export PYTHONPATH="/path/to/parent/of/envs:$PYTHONPATH"
